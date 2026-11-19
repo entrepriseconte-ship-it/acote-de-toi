@@ -1,0 +1,1 @@
+window.ACDT_CHATEAUX_TXT = window.ACDT_CHATEAUX_TXT || {}; window.ACDT_CHATEAUX_TXT["lv"] = {"ch-Q2946":{"n":"Versaļas pils"},"ch-Q1143049":{"n":"Monsoro pils","c":"pils Francijā, Luāras reģionā"},"ch-Q205367":{"n":"Šamboras pils"},"ch-Q329852":{"n":"Luksemburgas pils"},"ch-Q1075988":{"n":"Luvras pils"},"ch-Q1557685":{"n":"Gedelonas pils"}};

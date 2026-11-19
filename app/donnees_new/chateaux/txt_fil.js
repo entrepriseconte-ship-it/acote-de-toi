@@ -1,0 +1,1 @@
+window.ACDT_CHATEAUX_TXT = window.ACDT_CHATEAUX_TXT || {}; window.ACDT_CHATEAUX_TXT["fil"] = {"ch-Q2946":{"n":"Palasyo ng Versailles","c":"dating tirahang pangmaharlika sa Versailles, Pransiya"},"ch-Q1143049":{"n":"Château de Montsoreau"},"ch-Q912447":{"n":"Château de Chinon"}};

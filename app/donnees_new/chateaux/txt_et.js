@@ -1,0 +1,1 @@
+window.ACDT_CHATEAUX_TXT = window.ACDT_CHATEAUX_TXT || {}; window.ACDT_CHATEAUX_TXT["et"] = {"ch-Q2946":{"n":"Versailles' loss"},"ch-Q1143049":{"n":"Montsoreau loss","c":"Loss Prantsusmaal"},"ch-Q329852":{"n":"Luxembourgi palee"},"ch-Q13360213":{"n":"Chaillot' palee"},"ch-Q2971342":{"n":"Château de la Muette"},"ch-Q2969422":{"n":"Jasseroni senjöörilinnus"}};

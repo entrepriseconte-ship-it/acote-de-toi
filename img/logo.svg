@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b3c63"/><stop offset="1" stop-color="#0b1f36"/></linearGradient>
+    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6a5c"/><stop offset="1" stop-color="#d22f36"/></linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f2b441" stop-opacity=".35"/><stop offset="1" stop-color="#f2b441" stop-opacity="0"/></radialGradient>
+    <filter id="ombre" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#fond)"/>
+  <!-- ondes "autour de toi" -->
+  <ellipse cx="512" cy="760" rx="330" ry="110" fill="url(#halo)"/>
+  <ellipse cx="512" cy="760" rx="300" ry="96" fill="none" stroke="#f2b441" stroke-opacity=".28" stroke-width="10"/>
+  <ellipse cx="512" cy="760" rx="190" ry="60" fill="none" stroke="#f2b441" stroke-opacity=".55" stroke-width="12"/>
+  <!-- lieux à côté (couleurs des catégories) -->
+  <circle cx="232" cy="560" r="34" fill="#2e8b4f" stroke="#fff6e6" stroke-width="10"/>
+  <circle cx="800" cy="520" r="34" fill="#7a3ea8" stroke="#fff6e6" stroke-width="10"/>
+  <circle cx="182" cy="330" r="28" fill="#1c8bb8" stroke="#fff6e6" stroke-width="9"/>
+  <circle cx="846" cy="318" r="28" fill="#8a6a1f" stroke="#fff6e6" stroke-width="9"/>
+  <path d="M232 560 Q 360 640 512 690 M800 520 Q 680 640 512 690" fill="none" stroke="#fff6e6" stroke-opacity=".45" stroke-width="8" stroke-dasharray="4 22" stroke-linecap="round"/>
+  <!-- épingle -->
+  <g filter="url(#ombre)">
+    <path d="M512 150c-140 0-250 108-250 246 0 180 250 360 250 360s250-180 250-360c0-138-110-246-250-246z" fill="url(#pin)"/>
+  </g>
+  <circle cx="512" cy="396" r="150" fill="#fff6e6"/>
+  <!-- tour Eiffel (silhouette) -->
+  <g transform="translate(512 404)" fill="#0f2742">
+    <rect x="-4" y="-128" width="8" height="22" rx="3"/>
+    <path d="M-11-108H11L23-36H-23Z"/>
+    <rect x="-33" y="-38" width="66" height="12" rx="3"/>
+    <path d="M-25-26H25L46 36H-46Z"/>
+    <rect x="-60" y="34" width="120" height="14" rx="4"/>
+    <path d="M-52 48H52L88 120H50Q0 62-50 120H-88Z"/>
+    <path d="M-14-26H14L22 20H-22Z" fill="#fff6e6" opacity=".9"/>
+  </g>
+  <!-- petite touche tricolore -->
+  <g transform="translate(437 880)"><rect width="50" height="16" rx="8" fill="#3a5fb0"/><rect x="50" width="50" height="16" fill="#fff6e6"/><rect x="100" width="50" height="16" rx="8" fill="#e5484d"/><rect x="95" width="10" height="16" fill="#e5484d"/><rect x="45" width="10" height="16" fill="#fff6e6"/></g>
+</svg>

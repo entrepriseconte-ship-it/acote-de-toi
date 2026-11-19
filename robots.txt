@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /app/donnees/
+Sitemap: https://acote-de-toi.com/sitemap.xml

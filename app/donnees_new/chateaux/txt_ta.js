@@ -1,0 +1,1 @@
+window.ACDT_CHATEAUX_TXT = window.ACDT_CHATEAUX_TXT || {}; window.ACDT_CHATEAUX_TXT["ta"] = {"ch-Q2946":{"n":"வெர்செயில்ஸ் அரண்மனை"},"ch-Q1143049":{"n":"மோன்சோரோ அரண்மனை","c":"பிரான்சிலுள்ள அரண்மனை"}};
