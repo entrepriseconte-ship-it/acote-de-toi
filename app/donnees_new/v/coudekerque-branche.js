@@ -1,1 +1,0 @@
-window.ACDT_CHARGE("coudekerque-branche",[{"id":"osm-n3819491150","cat":"marches","ville":"coudekerque-branche","nom":"Marché de Dunkerque","lat":51.036499,"lon":2.380681,"prix":{"type":"inconnu"},"photo":null,"sources":[{"nom":"OpenStreetMap","licence":"ODbL","url":"https://www.openstreetmap.org/node/3819491150"}],"recupere":"2026-11-14","horaires":"We, Sa 08:00-13:00"}]);

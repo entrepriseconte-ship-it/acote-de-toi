@@ -1,1 +1,0 @@
-window.ACDT_CHATEAUX_TXT = window.ACDT_CHATEAUX_TXT || {}; window.ACDT_CHATEAUX_TXT["bn"] = {"ch-Q2946":{"n":"ভার্সাই প্রাসাদ"},"ch-Q1143049":{"n":"মোঁসোরো প্রাসাদ"},"ch-Q1013191":{"c":"ফ্রান্সের পর্বত"}};

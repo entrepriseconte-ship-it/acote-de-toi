@@ -1,1 +1,0 @@
-window.ACDT_CHATEAUX_TXT = window.ACDT_CHATEAUX_TXT || {}; window.ACDT_CHATEAUX_TXT["is"] = {"ch-Q2946":{"n":"Versalahöll"},"ch-Q1143049":{"n":"Montsoreau-kastali"},"ch-Q329852":{"n":"Lúxemborgarhöll"},"ch-Q2241121":{"n":"Château de Fénelon","c":"kastali í Frakklandi"}};
