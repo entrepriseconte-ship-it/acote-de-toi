@@ -5,8 +5,8 @@
   var IDS = {
     // Vrais blocs AdMob d'À Côté de Toi (appli Android ca-app-pub-2279402263917578~6203201750, créée le 18/11/2026).
     android: { banniere: 'ca-app-pub-2279402263917578/4948608642', interstitiel: 'ca-app-pub-2279402263917578/3577038415' },
-    // iPhone : identifiants de test de Google tant que l'appli iOS n'est pas créée dans AdMob.
-    ios: { banniere: 'ca-app-pub-3940256099942544/2934735716', interstitiel: 'ca-app-pub-3940256099942544/4411468910' }
+    // Vrais blocs AdMob iPhone (appli iOS ca-app-pub-2279402263917578~7613016576, créée le 22/11/2026).
+    ios: { banniere: 'ca-app-pub-2279402263917578/8237326390', interstitiel: 'ca-app-pub-2279402263917578/6084312485' }
   };
   var C = window.Capacitor, natif = !!(C && C.isNativePlatform && C.isNativePlatform());
   var A = natif && C.Plugins && C.Plugins.AdMob, plate = natif && C.getPlatform ? C.getPlatform() : 'web';
@@ -20,6 +20,8 @@
     pret = A.initialize({ initializeForTesting: false })
       .then(function () { return A.requestConsentInfo(); })
       .then(function (info) { if (info && info.isConsentFormAvailable && info.status === 'REQUIRED') return A.showConsentForm(); return info; })
+      // iPhone : demande Apple « Autoriser le suivi ? » (App Tracking Transparency), obligatoire avant les pubs personnalisées
+      .then(function () { if (plate === 'ios' && A.trackingAuthorizationStatus && A.requestTrackingAuthorization) return A.trackingAuthorizationStatus().then(function (r) { if (r && r.status === 'notDetermined') return A.requestTrackingAuthorization(); }).catch(function () {}); })
       .then(function () {
         A.addListener('bannerAdSizeChanged', function (s) { hauteur(s && s.height); });
         A.addListener('bannerAdFailedToLoad', function () { hauteur(0); });
